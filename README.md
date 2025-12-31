@@ -51,7 +51,7 @@ O modelo foi estruturado seguindo boas práticas de normalização e relacioname
 | `esquema.mwb` | Modelo lógico e diagrama EER |
 | `inserts.sql` | Script completo de inserção de dados |
 | `queries.sql` | Consultas SQL solicitadas no desafio |
-| `prints/` | Capturas de tela dos resultados das consultas |
+| `imagens/` | Capturas de tela dos resultados das consultas |
 
 ---
 
