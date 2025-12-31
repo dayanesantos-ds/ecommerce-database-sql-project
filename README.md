@@ -31,7 +31,7 @@ A modelagem contempla as seguintes entidades principais:
 O modelo foi estruturado seguindo boas práticas de normalização e relacionamento entre tabelas.
 
 📌 Arquivo do diagrama EER:  
-👉 **[esquema.mwb](./esquema.mwb)**
+👉 **[esquema.mwb](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/esquema.mwb)**  
 
 📌 Visualização do diagrama (print):  
 ![Diagrama do Banco](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/imagens/print%20esquema%201.png)
@@ -42,7 +42,7 @@ O modelo foi estruturado seguindo boas práticas de normalização e relacioname
 
 - MySQL Server  
 - MySQL Workbench  
-- SQL (DDL, DML e Queries analíticas)
+- SQL (DDL, DML e consultas analíticas)
 
 ---
 
@@ -50,10 +50,10 @@ O modelo foi estruturado seguindo boas práticas de normalização e relacioname
 
 | Arquivo / Pasta | Descrição |
 |----------------|----------|
-| **[esquema.mwb](./esquema.mwb)** | Modelo lógico e diagrama EER |
-| **[inserts.sql](./inserts.sql)** | Script completo de inserção de dados |
-| **[queries.sql](./queries.sql)** | Consultas SQL solicitadas no desafio |
-| **[imagens/](./imagens/)** | Capturas de tela dos resultados das consultas |
+| **[esquema.mwb](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/esquema.mwb)** | Modelo lógico e diagrama EER |
+| **[insets.sql](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/insets.sql)** | Script completo de inserção de dados |
+| **[queries.sql](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/queries.sql)** | Consultas SQL solicitadas no desafio |
+| **[imagens/](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/tree/main/imagens)** | Capturas de tela dos resultados das consultas |
 
 ---
 
@@ -61,8 +61,8 @@ O modelo foi estruturado seguindo boas práticas de normalização e relacioname
 
 1️⃣ Abra o MySQL Workbench  
 2️⃣ Execute o script de criação do banco e tabelas  
-3️⃣ Execute o arquivo **`inserts.sql`** para carregar os dados  
-4️⃣ Execute o arquivo **`queries.sql`** para rodar as consultas analíticas  
+3️⃣ Execute o arquivo **[insets.sql](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/insets.sql)** para carregar os dados  
+4️⃣ Execute o arquivo **[queries.sql](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/queries.sql)** para rodar as consultas analíticas  
 
 ---
 
@@ -71,13 +71,12 @@ O modelo foi estruturado seguindo boas práticas de normalização e relacioname
 As queries desenvolvidas respondem às perguntas:
 
 - Quantos pedidos cada cliente realizou  
-- Relação de produtos x fornecedores  
-- Relação de produtos, fornecedores e quantidade fornecida  
-- Recuperação de pedidos com seus produtos associados  
+- Relação de pedidos com seus produtos associados  
+- Relação de produtos, fornecedores e quantidade de produtos
 - Relação nomes de fornecedores x nomes de produtos  
 
 📌 Prints dos resultados estão disponíveis na pasta:  
-👉 **[imagens/](./imagens/)**
+👉 **[imagens/](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/tree/main/imagens)**
 
 ---
 
@@ -88,17 +87,17 @@ As queries desenvolvidas respondem às perguntas:
 
 ---
 
-### ✔️ Pergunta 2 – Produtos por Fornecedor
+### ✔️ Pergunta 2 – Pedidos com Produtos Associados
 ![Resultado Pergunta 2](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/imagens/pergunta%202.png)
 
 ---
 
-### ✔️ Pergunta 3 – Pedidos e Itens do Pedido
+### ✔️ Pergunta 3 – Fornecedores, Produtos e Estoque
 ![Resultado Pergunta 3](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/imagens/pergunta%203.png)
 
 ---
 
-### ✔️ Pergunta 4 – Entregas e Rastreamento
+### ✔️ Pergunta 4 – Fornecedores e Nome de Produtos
 ![Resultado Pergunta 4](https://github.com/dayanesantos-ds/ecommerce-database-sql-project/blob/main/imagens/pergunta%204.png)
 
 ---
@@ -119,7 +118,9 @@ Este projeto consolida o uso de SQL em um contexto realista de e-commerce, explo
 
 ## ✨ Autor(a)
 
-Projeto desenvolvido por **Dayane** como parte do programa de formação em Banco de Dados e Análise de Dados.
+Projeto desenvolvido por **Dayane Santos**, como parte do programa de formação em Análise de Dados da DIO.
+
+
 
 
 
